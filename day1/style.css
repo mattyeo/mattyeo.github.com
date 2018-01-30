@@ -1,79 +1,59 @@
+/* IMPORT START */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700,400');
+/* IMPORT FINISH */
 
-
-@keyframes example {
-    from {
-    background-color: lightpink;
-    font-size: 40px;
-    }
-    to {
-    background-color: #fbaeba;
-    font-size: 35px;
-    }
-}
-
-
-body{
+body {
     background-color: #fff3f6;
+    font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
-.container{
+h1 {
+    margin-top: 10%;
+    text-align: center;
+    color: #a1a1c9;
+    text-shadow: 3px 3px #d4d2d2;
+}
+
+.container {
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     width: 400px;
     height: 400px;
     background-color: lightpink;
-    border: 2px solid #ffffff;
-   
+    border: 3px solid #ffffff;
+    box-shadow: 3px 3px lightgrey;
 }
 
-.container p{
-    text-align: center;
-    font-family: 'Open Sans', Helvetica, sans-serif;
+.container p {
     color: white;
+    text-align: center;
 }
 
-#n1, #n2, #n3, #n4{
+#n1, #n2, #n3, #n4 {
     font-size: 40px;
     width: 199px;
     height: 199px;
     float: left;
-    
-    
 }
 
-#n1, #n2{
+#n1, #n2 {
    border-bottom: 2px solid white;
 }
 
-#n1{
+#n1, #n3 {
     border-right: 1px solid white;
 }
 
-#n1:hover, #n2:hover, #n3:hover, #n4:hover{
+#n2, #n4 {
+    border-left: 1px solid white;
+}
+
+#n1:hover, #n2:hover, #n3:hover, #n4:hover {
     font-size : 39px;
     background-color: #fbaeba;
+    box-shadow:inset 0px 0px 2px 5px #ffe4e8;
     -webkit-box-shadow:inset 0px 0px 2px 5px #ffe4e8;
     -moz-box-shadow:inset 0px 0px 2px 5px #ffe4e8;
-    box-shadow:inset 0px 0px 2px 5px #ffe4e8;
-     -webkit-transition: background-color 0.5s, font-size 0.5s, box-shadow 0.5s;
-    
-    
-    
+    -webkit-transition: background-color 0.5s, font-size 0.5s, box-shadow 0.5s;
 }
-#n2{
-    border-left: 1px solid white;
-}
-
-#n3{
-    border-right: 1px solid white;
-}
-
-#n4{
-    border-left: 1px solid white;
-}
-
-
-
-

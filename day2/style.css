@@ -1,30 +1,29 @@
-
+/* IMPORT START */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700,400');
+/* IMPORT FINISH */
 
-.container{
+.container {
     width: 400px;
     height: 400px;
-    background-color: cadetblue;
     margin: auto;
-    margin-top: 10%
+    margin-top: 10%;
+    background-color: cadetblue;
 }
 
-
-#box1{
+#box1 {
+    width: 200px;
+    height: 70px;
     position:relative;
     margin: auto;
     top: 35%;
-    width: 200px;
-    height: 70px;
     background-color: lightpink;
-    z-index: 2;
     box-shadow: 8px 10px purple;
     color: white;
-     -webkit-transition: top 0.5s, left 0.5s, color 0.5s, box-shadow 0.5s, background-color 0.5s;
+    -webkit-transition: top 0.5s, left 0.5s, color 0.5s, box-shadow 0.5s, background-color 0.5s;
     
 }
 
-#box1 p{
+#box1 p {
     font-size: 25px;
     position: relative;
     top: 25%;
@@ -32,12 +31,11 @@
     font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
-#box1:hover{
+#box1:hover {
     top: 37.5%;
     color: purple;
     box-shadow: -8px -10px lightpink;
     background-color: white;
     -webkit-transition: top 0.5s, left 0.5s, color 0.5s, box-shadow 0.5s, background-color 0.5s;
-    
 }
 
