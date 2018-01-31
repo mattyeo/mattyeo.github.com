@@ -1,0 +1,54 @@
+/* IMPORT START */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700,400');
+/* IMPORT FINISH */
+
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+body {
+    background-color: #1c1c1c;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 5%;
+    align-items: stretch;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+#first , #second , #third , #fourth{
+    position:relative;
+    float: left;
+    width: 25%;
+    height: 400px;
+    -webkit-transition: width 1s;
+    color:transparent;
+    font-size: 1px;
+    text-align: center;
+}
+
+#first , #third {
+    background-color:#10315B;
+}
+
+#second , #fourth{
+    background-color:#FF6E13;
+}
+
+#first:hover ,  #second:hover , #third:hover , #fourth:hover {
+    width:75%;
+    color: white;
+    font-size: 30px;
+    line-height: 400px;
+    -webkit-transition: width 1s, color 1s, font-size 1s;
+}
