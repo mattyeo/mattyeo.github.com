@@ -2,11 +2,22 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700,400');
 /* IMPORT FINISH */
 
+body{
+    background-color: #000000;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, sans-serif;   
+    margin-top: 2%;
+}
+
 .container {
     width: 400px;
     height: 400px;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
     background-color: cadetblue;
 }
 
