@@ -1,11 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
 .container{
-    background-color: black;
+    background:-webkit-gradient(linear, left bottom, right top, from(#5ceddf), to(#002f2b));
     width: 400px;
     height: 400px;
+    margin: auto;
+    margin-top: 5%;
 }
 
 .cent_container{
+    position: absolute;
     background-color: white;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.profileb{
+    background-color: #011627;
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+
+.box1, .box2, .box3{
+    background-color: #2EC4B6;
+    width: 96px;
+    height: 98px;
+    float:right;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.box1{
+    height: 96px;
+    border-top: 2px solid white;
+}
+.box1:hover, .box2:hover, .box3:hover{
+    background-color: #33b9ac;
+}
+
+#num_info{
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:white;
+}
+
+#info_title{
+    font-size: 14px;
+    text-align:center;
+    line-height: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:white;
+}
+
+#img_profile{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 16%;
+    margin-top:10%;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+#name_profile{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 73%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btt{
+  position:relative;
+    background-color: #33b9ac;
+    width: 100px;
+    margin-bottom: 4px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration:none;
+    font-size: 14px;
+    border-radius: 25px;
+    border: 2px solid ;
+    margin-left: 25%;
+}
+
+.btt:hover{
+    background-color:#259187;
+}
+
+#title{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin-top: 4%;
 }
